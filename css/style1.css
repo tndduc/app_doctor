@@ -1,0 +1,43 @@
+.card{
+    border-radius: 15px;
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+    margin: 15px;
+    padding: 15px;
+}
+.card img{
+    border-radius: 5px;
+    max-width: 120px;
+}
+.btn-booking{
+    margin-top: 15px;
+}
+.content-card{
+    display: flex;
+}
+.body-card{
+    margin-left: 15px;
+}
+.name-doctor{
+    font: 1.3em sans-serif;
+}
+.search{
+    z-index: 2;
+    border-radius: 5px;
+    width: -webkit-fill-available;
+    height: 50px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+    background-color: aliceblue;
+    justify-content: space-evenly;
+    display: flex;
+}
+.search button{
+    margin: 5px;
+}
+.content{
+    z-index: 1;
+    margin-top: 50px;
+}

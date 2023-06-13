@@ -1,0 +1,23 @@
+.tool_bar{
+    border-radius: 5px;
+    width: -webkit-fill-available;
+    height: 50px;
+    background-color: #e3ecff;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+}
+.home-icon{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon_tool{
+    color: #343a40;
+    margin: 25px 10px 0px 10px;
+}
+.content{
+    overflow-y: scroll;
+    margin-bottom: 50px;
+}
