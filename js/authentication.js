@@ -37,7 +37,7 @@ fetch(urlAuth, requestOptions)
       });
   })
   .catch((error) => {
-    window.location=gitlink+"/login.html";
+  
     // Xử lý lỗi
     console.log(error);
   });
